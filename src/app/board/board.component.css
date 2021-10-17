@@ -1,0 +1,18 @@
+.game-cube {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 2rem auto;
+  width: 420px;
+  height: 420px;
+}
+h1 {
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .game-cube {
+    width: 90vw;
+    height: 90vw;
+  }
+}
